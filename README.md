@@ -1,6 +1,8 @@
 # a-star
 A* search algorithm for go
 
+Usage example
+```
 func main() {
 	width := int32(18)
 	height := int32(18)
@@ -10,3 +12,4 @@ func main() {
 	fp.FindingPath()
 	_map.PrintScene()
 }
+```
